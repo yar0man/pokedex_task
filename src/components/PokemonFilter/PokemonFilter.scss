@@ -1,0 +1,30 @@
+.filter {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__bth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+  }
+
+  &__icon {
+    height: 48px;
+    transition: transform 300ms ease-in-out;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  &__text {
+    font-weight: 550;
+  }
+}

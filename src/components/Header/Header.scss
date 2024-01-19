@@ -1,0 +1,20 @@
+.header {
+  margin-top: 10px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__img {
+    width: 64px;
+    margin-right: 4px;
+
+  }
+
+  &__text {
+    font-size: 64px;
+    font-weight: bold;
+  }
+}
